@@ -1,0 +1,60 @@
+{
+  "preference_rules": [
+    {
+      "pattern": "以后都用(.+)",
+      "action": "set_pref",
+      "key_group": 1,
+      "pref_key": "default_style"
+    },
+    {
+      "pattern": "以后用(.+)",
+      "action": "set_pref",
+      "key_group": 1,
+      "pref_key": "default_style"
+    },
+    {
+      "pattern": "不要(.+?)了",
+      "action": "remove_pref",
+      "key_group": 1
+    },
+    {
+      "pattern": "不再(.+)",
+      "action": "remove_pref",
+      "key_group": 1
+    },
+    {
+      "pattern": "记住我的(.+?)是(.+)",
+      "action": "set_fact",
+      "key_group": 1,
+      "value_group": 2
+    },
+    {
+      "pattern": "记住(.+)",
+      "action": "set_fact",
+      "key_group": 1,
+      "value_group": 1
+    }
+  ],
+  "task_rules": [
+    {
+      "pattern": "帮我(.+)",
+      "action": "add_task",
+      "task_group": 1
+    },
+    {
+      "pattern": "请(.+)",
+      "action": "add_task",
+      "task_group": 1
+    },
+    {
+      "pattern": "取消(.+?)任务",
+      "action": "remove_task",
+      "task_group": 1
+    },
+    {
+      "pattern": "不用(.+?)了",
+      "action": "remove_task",
+      "task_group": 1
+    }
+  ]
+}
