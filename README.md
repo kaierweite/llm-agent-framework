@@ -712,8 +712,8 @@ pytest
 
 ## 📞 联系方式
 
-- 项目地址：https://github.com/your-org/llm-agent-framework
-- 问题反馈：https://github.com/your-org/llm-agent-framework/issues
+- 项目地址：https://github.com/kaierweite/llm-agent-framework
+- 问题反馈：https://github.com/kaierweite/llm-agent-framework/issues
 
 ## 🙏 致谢
 
