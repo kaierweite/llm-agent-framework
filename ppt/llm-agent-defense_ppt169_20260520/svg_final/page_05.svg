@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#FAFAF8" />
+  <rect x="0" y="0" width="1280" height="4" fill="#002FA7" />
+  <text x="60" y="50" font-family="Consolas, monospace" font-size="12" fill="#737373" letter-spacing="3">05 / 10 · ARCHITECTURE</text>
+  <line x1="60" y1="68" x2="1220" y2="68" stroke="#E0E0E0" stroke-width="1" />
+  <text x="60" y="110" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="700" fill="#0A0A0A">Agent ReAct 循环流程</text>
+  <text x="60" y="140" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#737373">6 步推理-行动循环：构建上下文 → LLM推理 → 解析 → 执行工具 → 结果注入 → 循环控制</text>
+
+  
+  <path fill="#F0F0EE" d="M66,180 H234 A6,6 0 0 1 240,186 V244 A6,6 0 0 1 234,250 H66 A6,6 0 0 1 60,244 V186 A6,6 0 0 1 66,180 Z" />
+  <text x="85" y="208" font-family="Consolas, monospace" font-size="11" fill="#002FA7">STEP 1</text>
+  <text x="85" y="232" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#0A0A0A">构建消息上下文</text>
+  <text x="250" y="218" font-family="Consolas, monospace" font-size="16" fill="#002FA7">→</text>
+
+  
+  <path fill="#F0F0EE" d="M281,180 H449 A6,6 0 0 1 455,186 V244 A6,6 0 0 1 449,250 H281 A6,6 0 0 1 275,244 V186 A6,6 0 0 1 281,180 Z" />
+  <text x="300" y="208" font-family="Consolas, monospace" font-size="11" fill="#002FA7">STEP 2</text>
+  <text x="300" y="232" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#0A0A0A">LLM 推理</text>
+  <text x="465" y="218" font-family="Consolas, monospace" font-size="16" fill="#002FA7">→</text>
+
+  
+  <path fill="#F0F0EE" d="M496,180 H664 A6,6 0 0 1 670,186 V244 A6,6 0 0 1 664,250 H496 A6,6 0 0 1 490,244 V186 A6,6 0 0 1 496,180 Z" />
+  <text x="515" y="208" font-family="Consolas, monospace" font-size="11" fill="#002FA7">STEP 3</text>
+  <text x="515" y="232" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#0A0A0A">解析工具调用</text>
+  <text x="680" y="218" font-family="Consolas, monospace" font-size="16" fill="#002FA7">→</text>
+
+  
+  <path fill="#002FA7" d="M711,180 H879 A6,6 0 0 1 885,186 V244 A6,6 0 0 1 879,250 H711 A6,6 0 0 1 705,244 V186 A6,6 0 0 1 711,180 Z" />
+  <text x="730" y="208" font-family="Consolas, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.7">STEP 4</text>
+  <text x="730" y="232" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">执行工具</text>
+  <text x="895" y="218" font-family="Consolas, monospace" font-size="16" fill="#002FA7">→</text>
+
+  
+  <path fill="#F0F0EE" d="M926,180 H1214 A6,6 0 0 1 1220,186 V244 A6,6 0 0 1 1214,250 H926 A6,6 0 0 1 920,244 V186 A6,6 0 0 1 926,180 Z" />
+  <text x="945" y="208" font-family="Consolas, monospace" font-size="11" fill="#002FA7">STEP 5+6</text>
+  <text x="945" y="232" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#0A0A0A">结果注入 → 循环控制</text>
+
+  
+  <text x="1050" y="260" font-family="Consolas, monospace" font-size="11" fill="#002FA7">← 循环 (≤5 轮)</text>
+
+  
+  <path fill="#F0F0EE" d="M66,290 H614 A6,6 0 0 1 620,296 V474 A6,6 0 0 1 614,480 H66 A6,6 0 0 1 60,474 V296 A6,6 0 0 1 66,290 Z" />
+  <text x="90" y="325" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">上下文注入</text>
+  <text x="90" y="355" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#0A0A0A">系统提示词 + 长期记忆（偏好/事实/任务）</text>
+  <text x="90" y="380" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#0A0A0A">技能规则 + 知识库上下文 + 滑动窗口消息</text>
+  <line x1="90" y1="405" x2="590" y2="405" stroke="#E0E0E0" stroke-width="1" />
+  <text x="90" y="435" font-family="Consolas, monospace" font-size="11" fill="#737373">SSE 流式传输 · 实时输出 · 用户即时感知</text>
+  <text x="90" y="460" font-family="Consolas, monospace" font-size="11" fill="#737373">工具执行：单个同步 / 多个 ThreadPoolExecutor 并行</text>
+
+  
+  <path fill="#002FA7" d="M666,290 H1214 A6,6 0 0 1 1220,296 V474 A6,6 0 0 1 1214,480 H666 A6,6 0 0 1 660,474 V296 A6,6 0 0 1 666,290 Z" />
+  <text x="690" y="325" font-family="Consolas, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.6" letter-spacing="2">约束控制</text>
+  <text x="690" y="365" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">最多 5 轮工具调用</text>
+  <text x="690" y="400" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">总耗时 ≤ 120 秒</text>
+  <text x="690" y="435" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">单工具超时 30 秒</text>
+  <line x1="690" y1="460" x2="1190" y2="460" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1" />
+  <text x="690" y="480" font-family="Consolas, monospace" font-size="11" fill="#5B7BFF">超出限制 → 强制返回已有结果</text>
+
+  
+  <path fill="#F0F0EE" d="M66,510 H1214 A6,6 0 0 1 1220,516 V644 A6,6 0 0 1 1214,650 H66 A6,6 0 0 1 60,644 V516 A6,6 0 0 1 66,510 Z" />
+  <text x="90" y="545" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">解析与处理</text>
+  <text x="90" y="575" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#0A0A0A">正则提取 &lt;function_calls&gt; 标签 → JSON 解析工具调用指令</text>
+  <text x="90" y="605" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#525252">无工具调用 → 直接 SSE 输出文本 · 有工具调用 → 并行执行 → 结果注入 → 下一轮推理</text>
+  <text x="90" y="635" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#525252">Token &gt; 30k 自动触发 LLM 摘要压缩 · 更新长期记忆规则</text>
+
+  <text x="60" y="695" font-family="Consolas, monospace" font-size="11" fill="#737373">LLM Agent Framework · Graduation Defense 2026</text>
+</svg>

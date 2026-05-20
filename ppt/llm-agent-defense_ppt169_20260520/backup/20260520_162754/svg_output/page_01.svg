@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#002FA7"/>
+      <stop offset="100%" stop-color="#001A5E"/>
+    </linearGradient>
+  </defs>
+  <!-- Full background -->
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+  <!-- Subtle grid pattern -->
+  
+  
+  <!-- Top meta -->
+  <text x="60" y="50" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" fill-opacity="0.6" letter-spacing="3">LLM AGENT FRAMEWORK · GRADUATION DEFENSE</text>
+  <text x="1220" y="50" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" fill-opacity="0.6" text-anchor="end" letter-spacing="2">01 / 08</text>
+  <!-- Divider -->
+  <line x1="60" y1="68" x2="1220" y2="68" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1"/>
+  <!-- Main title area -->
+  <text x="640" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="64" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">LLM Agent Framework</text>
+  <text x="640" y="380" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="400" fill="#FFFFFF" fill-opacity="0.9" text-anchor="middle" letter-spacing="4">智能代理框架</text>
+  <!-- Accent line -->
+  <rect x="540" y="420" width="200" height="3" rx="1.5" fill="#5B7BFF"/>
+  <!-- Subtitle -->
+  <text x="640" y="470" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" fill="#FFFFFF" fill-opacity="0.75" text-anchor="middle">基于大语言模型的全栈智能代理框架 —— 让 AI 从"会聊天"进化为"能动手干活"</text>
+  <!-- Bottom meta -->
+  <line x1="60" y1="640" x2="1220" y2="640" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1"/>
+  <text x="60" y="672" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.5">毕业设计答辩 · 2026</text>
+  <text x="1220" y="672" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.5" text-anchor="end">→ 翻页</text>
+</svg>

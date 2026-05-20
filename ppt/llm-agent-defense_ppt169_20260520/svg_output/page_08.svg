@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#FAFAF8"/>
+  <rect x="0" y="0" width="1280" height="4" fill="#002FA7"/>
+  <text x="60" y="50" font-family="Consolas, monospace" font-size="12" fill="#737373" letter-spacing="3">08 / 10 · ARCHITECTURE</text>
+  <line x1="60" y1="68" x2="1220" y2="68" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="60" y="110" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="700" fill="#0A0A0A">系统整体架构</text>
+  <text x="60" y="140" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#737373">FastAPI + Vue 3 + PostgreSQL + Redis · 分层全栈设计</text>
+
+  <!-- Layer 1: Frontend -->
+  <rect x="60" y="170" width="360" height="80" rx="6" fill="#F0F0EE"/>
+  <text x="90" y="198" font-family="Consolas, monospace" font-size="11" fill="#002FA7">前端层</text>
+  <text x="90" y="225" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#0A0A0A">Vue 3 + TypeScript</text>
+  <text x="90" y="242" font-family="Consolas, monospace" font-size="11" fill="#737373">SSE 流式接收 · 管理后台</text>
+  <text x="430" y="215" font-family="Consolas, monospace" font-size="14" fill="#002FA7">→</text>
+
+  <!-- Layer 2: Middleware -->
+  <rect x="460" y="170" width="360" height="80" rx="6" fill="#002FA7"/>
+  <text x="490" y="198" font-family="Consolas, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.7">中间件</text>
+  <text x="490" y="225" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">JWT · 限流 · 熔断</text>
+  <text x="490" y="242" font-family="Consolas, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.7">请求日志 · 审计追踪</text>
+  <text x="830" y="215" font-family="Consolas, monospace" font-size="14" fill="#002FA7">→</text>
+
+  <!-- Layer 2b: API -->
+  <rect x="860" y="170" width="360" height="80" rx="6" fill="#F0F0EE"/>
+  <text x="890" y="198" font-family="Consolas, monospace" font-size="11" fill="#002FA7">API 层 · 8 组路由</text>
+  <text x="890" y="225" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#0A0A0A">FastAPI Routers</text>
+  <text x="890" y="242" font-family="Consolas, monospace" font-size="11" fill="#737373">认证 · 对话 · 知识库 · 管理</text>
+
+  <!-- Down arrow -->
+  <text x="640" y="275" font-family="Consolas, monospace" font-size="14" fill="#002FA7" text-anchor="middle">↓</text>
+
+  <!-- Layer 3: Core Engine -->
+  <rect x="60" y="295" width="1160" height="100" rx="8" fill="#002FA7"/>
+  <text x="90" y="325" font-family="Consolas, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.6">核心 Agent 引擎 (ReAct 范式)</text>
+  <text x="90" y="355" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.9">Agent 循环</text>
+  <text x="210" y="355" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.9">Prompt 管理</text>
+  <text x="350" y="355" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.9">工具执行器</text>
+  <text x="490" y="355" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.9">历史管理</text>
+  <text x="610" y="355" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.9">长期记忆</text>
+  <text x="730" y="355" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.9">技能加载</text>
+  <text x="850" y="355" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.9">上下文压缩</text>
+  <text x="90" y="382" font-family="Consolas, monospace" font-size="11" fill="#5B7BFF">ContextVar 并发隔离 · SSE 流式 · 单例模式</text>
+
+  <!-- Down arrows to services/tools -->
+  <text x="320" y="420" font-family="Consolas, monospace" font-size="14" fill="#002FA7" text-anchor="middle">↓</text>
+  <text x="640" y="420" font-family="Consolas, monospace" font-size="14" fill="#002FA7" text-anchor="middle">↓</text>
+  <text x="960" y="420" font-family="Consolas, monospace" font-size="14" fill="#002FA7" text-anchor="middle">↓</text>
+
+  <!-- Layer 4: Services -->
+  <rect x="60" y="440" width="560" height="100" rx="6" fill="#F0F0EE"/>
+  <text x="90" y="468" font-family="Consolas, monospace" font-size="11" fill="#002FA7">服务层 · 14 个 Service</text>
+  <text x="90" y="495" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#0A0A0A">认证 · 对话 · 知识库 · 部门 · 技能 · 审计</text>
+  <text x="90" y="522" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#0A0A0A">文档解析 (Word/Excel/PPT/PDF) · 本地 RAG</text>
+
+  <!-- Tools -->
+  <rect x="660" y="440" width="560" height="100" rx="6" fill="#F0F0EE"/>
+  <text x="690" y="468" font-family="Consolas, monospace" font-size="11" fill="#002FA7">工具注册表 · 15+ 内置工具</text>
+  <text x="690" y="495" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#0A0A0A">文件操作 · 网络请求 · 天气查询 · 知识库检索</text>
+  <text x="690" y="522" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#0A0A0A">聊天历史搜索 · 技能加载 · 自定义扩展</text>
+
+  <!-- Down arrow -->
+  <text x="640" y="565" font-family="Consolas, monospace" font-size="14" fill="#002FA7" text-anchor="middle">↓</text>
+
+  <!-- Layer 5: Data -->
+  <rect x="60" y="585" width="350" height="60" rx="6" fill="#F0F0EE"/>
+  <text x="90" y="613" font-family="Consolas, monospace" font-size="11" fill="#002FA7">PostgreSQL</text>
+  <text x="90" y="634" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#0A0A0A">持久化存储 · 11 个数据模型</text>
+
+  <rect x="440" y="585" width="350" height="60" rx="6" fill="#F0F0EE"/>
+  <text x="470" y="613" font-family="Consolas, monospace" font-size="11" fill="#002FA7">Redis</text>
+  <text x="470" y="634" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#0A0A0A">缓存 · 会话 · 记忆 · 限流</text>
+
+  <rect x="820" y="585" width="400" height="60" rx="6" fill="#F0F0EE"/>
+  <text x="850" y="613" font-family="Consolas, monospace" font-size="11" fill="#002FA7">External</text>
+  <text x="850" y="634" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#0A0A0A">LLM API (OpenAI 兼容) · AnythingLLM (RAG)</text>
+
+  <text x="60" y="695" font-family="Consolas, monospace" font-size="11" fill="#737373">LLM Agent Framework · Graduation Defense 2026</text>
+</svg>

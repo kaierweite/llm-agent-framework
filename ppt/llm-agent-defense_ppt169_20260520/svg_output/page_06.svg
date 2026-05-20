@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#FAFAF8"/>
+  <rect x="0" y="0" width="1280" height="4" fill="#002FA7"/>
+  <text x="60" y="50" font-family="Consolas, monospace" font-size="12" fill="#737373" letter-spacing="3">06 / 10 · MEMORY SYSTEM</text>
+  <line x1="60" y1="68" x2="1220" y2="68" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="60" y="110" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="700" fill="#0A0A0A">上下文压缩与长期记忆</text>
+  <text x="60" y="140" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#737373">双层策略：滑动窗口 + 自动摘要，100 轮模拟测试验证</text>
+  <!-- Left: Compression data -->
+  <rect x="60" y="175" width="580" height="260" rx="6" fill="#F0F0EE"/>
+  <text x="100" y="210" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">压缩测试 · 100 轮模拟</text>
+  <!-- Before -->
+  <rect x="100" y="230" width="240" height="90" rx="6" fill="#FFFFFF"/>
+  <text x="220" y="260" font-family="Consolas, monospace" font-size="11" fill="#737373" text-anchor="middle">压缩前 Token 数</text>
+  <text x="220" y="300" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="42" font-weight="700" fill="#0A0A0A" text-anchor="middle">45,200</text>
+  <!-- Arrow -->
+  <text x="360" y="285" font-family="Consolas, monospace" font-size="24" fill="#002FA7">→</text>
+  <!-- After -->
+  <rect x="400" y="230" width="220" height="90" rx="6" fill="#002FA7"/>
+  <text x="510" y="260" font-family="Consolas, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.7" text-anchor="middle">压缩后 Token 数</text>
+  <text x="510" y="300" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="42" font-weight="700" fill="#FFFFFF" text-anchor="middle">8,500</text>
+  <!-- Ratio and retention -->
+  <rect x="100" y="340" width="240" height="70" rx="6" fill="#FFFFFF"/>
+  <text x="220" y="368" font-family="Consolas, monospace" font-size="11" fill="#737373" text-anchor="middle">压缩比</text>
+  <text x="220" y="398" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="28" font-weight="700" fill="#002FA7" text-anchor="middle">5.3 : 1</text>
+  <rect x="360" y="340" width="260" height="70" rx="6" fill="#FFFFFF"/>
+  <text x="490" y="368" font-family="Consolas, monospace" font-size="11" fill="#737373" text-anchor="middle">关键信息保留率</text>
+  <text x="490" y="398" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="28" font-weight="700" fill="#002FA7" text-anchor="middle">92.5%</text>
+  <!-- Right: Long-term memory -->
+  <rect x="680" y="175" width="540" height="260" rx="6" fill="#002FA7"/>
+  <text x="720" y="210" font-family="Consolas, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.6" letter-spacing="2">长期记忆系统</text>
+  <!-- Memory types -->
+  <rect x="710" y="230" width="480" height="56" rx="4" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="740" y="255" font-family="Consolas, monospace" font-size="11" fill="#5B7BFF">01</text>
+  <text x="780" y="255" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">用户偏好</text>
+  <text x="880" y="258" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.6">回复风格 · 语言偏好 · 交互习惯</text>
+  <rect x="710" y="296" width="480" height="56" rx="4" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="740" y="321" font-family="Consolas, monospace" font-size="11" fill="#5B7BFF">02</text>
+  <text x="780" y="321" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">重要事实</text>
+  <text x="880" y="324" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.6">姓名 · 职位 · 项目信息 · 关键数值</text>
+  <rect x="710" y="362" width="480" height="56" rx="4" fill="#FFFFFF" fill-opacity="0.1"/>
+  <text x="740" y="387" font-family="Consolas, monospace" font-size="11" fill="#5B7BFF">03</text>
+  <text x="780" y="387" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">未完成任务</text>
+  <text x="880" y="390" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#FFFFFF" fill-opacity="0.6">提醒 · 跟进事项 · 待办追踪</text>
+  <!-- Bottom: Strategy detail -->
+  <rect x="60" y="465" width="1160" height="200" rx="6" fill="#F0F0EE"/>
+  <text x="100" y="500" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">双层压缩策略</text>
+  <!-- Two strategy blocks -->
+  <rect x="100" y="520" width="540" height="65" rx="4" fill="#FFFFFF"/>
+  <text x="130" y="548" font-family="Consolas, monospace" font-size="11" fill="#002FA7">滑动窗口</text>
+  <text x="220" y="548" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#0A0A0A">Redis 保留最近 15 轮完整对话</text>
+  <text x="130" y="572" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#737373">旧消息移出窗口，确保上下文精简</text>
+  <rect x="660" y="520" width="540" height="65" rx="4" fill="#FFFFFF"/>
+  <text x="690" y="548" font-family="Consolas, monospace" font-size="11" fill="#002FA7">自动摘要</text>
+  <text x="780" y="548" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#0A0A0A">Token > 30k 时触发 LLM 摘要压缩</text>
+  <text x="690" y="572" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#737373">生成结构化摘要（用户意图 + 关键信息 + 执行结果）</text>
+  <!-- Footer note -->
+  <text x="100" y="620" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#525252">基于 Redis 的持久化记忆 · 正则规则自动提取 · 跨会话信息连续性</text>
+  <text x="60" y="695" font-family="Consolas, monospace" font-size="11" fill="#737373">LLM Agent Framework · Graduation Defense 2026</text>
+</svg>

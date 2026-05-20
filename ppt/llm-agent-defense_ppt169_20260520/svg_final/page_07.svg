@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#FAFAF8" />
+  <rect x="0" y="0" width="1280" height="4" fill="#002FA7" />
+  <text x="60" y="50" font-family="Consolas, monospace" font-size="12" fill="#737373" letter-spacing="3">07 / 10 · SKILL SYSTEM</text>
+  <line x1="60" y1="68" x2="1220" y2="68" stroke="#E0E0E0" stroke-width="1" />
+  <text x="60" y="110" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="700" fill="#0A0A0A">动态技能系统与企业级功能</text>
+  <text x="60" y="140" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#737373">Markdown 规则驱动 · 按需注入 · 不改代码不重训模型</text>
+  
+  <path fill="#002FA7" d="M68,170 H1212 A8,8 0 0 1 1220,178 V332 A8,8 0 0 1 1212,340 H68 A8,8 0 0 1 60,332 V178 A8,8 0 0 1 68,170 Z" />
+  <text x="100" y="215" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" fill-opacity="0.6" letter-spacing="2">核心创新 · 动态技能系统</text>
+  <text x="100" y="265" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF">把写作规则写进 Markdown 文件，按需注入提示词</text>
+  
+  <path fill="#FFFFFF" fill-opacity="0.15" d="M704,250 H796 A4,4 0 0 1 800,254 V282 A4,4 0 0 1 796,286 H704 A4,4 0 0 1 700,282 V254 A4,4 0 0 1 704,250 Z" />
+  <text x="750" y="274" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" text-anchor="middle">SKILL.md</text>
+  <text x="810" y="274" font-family="Consolas, monospace" font-size="14" fill="#5B7BFF">→</text>
+  <path fill="#FFFFFF" fill-opacity="0.15" d="M834,250 H926 A4,4 0 0 1 930,254 V282 A4,4 0 0 1 926,286 H834 A4,4 0 0 1 830,282 V254 A4,4 0 0 1 834,250 Z" />
+  <text x="880" y="274" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" text-anchor="middle">规则注入</text>
+  <text x="940" y="274" font-family="Consolas, monospace" font-size="14" fill="#5B7BFF">→</text>
+  <path fill="#FFFFFF" fill-opacity="0.15" d="M964,250 H1056 A4,4 0 0 1 1060,254 V282 A4,4 0 0 1 1056,286 H964 A4,4 0 0 1 960,282 V254 A4,4 0 0 1 964,250 Z" />
+  <text x="1010" y="274" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" text-anchor="middle">LLM 输出</text>
+  <text x="100" y="320" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.7">用户说"帮我写通知" → 自动加载通知技能规则 → 按规范生成公文</text>
+  
+  <path fill="#F0F0EE" d="M66,365 H424 A6,6 0 0 1 430,371 V559 A6,6 0 0 1 424,565 H66 A6,6 0 0 1 60,559 V371 A6,6 0 0 1 66,365 Z" />
+  <path fill="#5B7BFF" d="M62,365 H428 A2,2 0 0 1 430,367 V367 A2,2 0 0 1 428,369 H62 A2,2 0 0 1 60,367 V367 A2,2 0 0 1 62,365 Z" />
+  <text x="95" y="405" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">企业级 · 认证</text>
+  <text x="95" y="445" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="600" fill="#0A0A0A">JWT 认证</text>
+  <text x="95" y="475" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#525252">多用户身份隔离</text>
+  <text x="95" y="500" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#737373">bcrypt 加密 · SSRF 防护</text>
+  <text x="95" y="525" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#737373">请求限流 · 熔断器</text>
+  <path fill="#F0F0EE" d="M461,365 H819 A6,6 0 0 1 825,371 V559 A6,6 0 0 1 819,565 H461 A6,6 0 0 1 455,559 V371 A6,6 0 0 1 461,365 Z" />
+  <path fill="#5B7BFF" d="M457,365 H823 A2,2 0 0 1 825,367 V367 A2,2 0 0 1 823,369 H457 A2,2 0 0 1 455,367 V367 A2,2 0 0 1 457,365 Z" />
+  <text x="490" y="405" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">企业级 · 管理</text>
+  <text x="490" y="445" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="600" fill="#0A0A0A">部门管理</text>
+  <text x="490" y="475" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#525252">树形组织架构</text>
+  <text x="490" y="500" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#737373">多级部门 · 成员权限控制</text>
+  <text x="490" y="525" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#737373">知识库分享码 · 访问日志</text>
+  <path fill="#F0F0EE" d="M856,365 H1214 A6,6 0 0 1 1220,371 V559 A6,6 0 0 1 1214,565 H856 A6,6 0 0 1 850,559 V371 A6,6 0 0 1 856,365 Z" />
+  <path fill="#5B7BFF" d="M852,365 H1218 A2,2 0 0 1 1220,367 V367 A2,2 0 0 1 1218,369 H852 A2,2 0 0 1 850,367 V367 A2,2 0 0 1 852,365 Z" />
+  <text x="885" y="405" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">企业级 · 安全</text>
+  <text x="885" y="445" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="600" fill="#0A0A0A">审计日志</text>
+  <text x="885" y="475" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#525252">完整操作追踪</text>
+  <text x="885" y="500" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#737373">IP 记录 · 请求耗时统计</text>
+  <text x="885" y="525" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#737373">90 天自动清理</text>
+  
+  <path fill="#F0F0EE" d="M66,590 H1214 A6,6 0 0 1 1220,596 V634 A6,6 0 0 1 1214,640 H66 A6,6 0 0 1 60,634 V596 A6,6 0 0 1 66,590 Z" />
+  <text x="90" y="621" font-family="Consolas, monospace" font-size="12" fill="#737373" letter-spacing="2">技术栈</text>
+  <path fill="#FFFFFF" d="M184,602 H286 A4,4 0 0 1 290,606 V626 A4,4 0 0 1 286,630 H184 A4,4 0 0 1 180,626 V606 A4,4 0 0 1 184,602 Z" />
+  <text x="235" y="622" font-family="Consolas, monospace" font-size="12" fill="#0A0A0A" text-anchor="middle">FastAPI</text>
+  <path fill="#FFFFFF" d="M309,602 H391 A4,4 0 0 1 395,606 V626 A4,4 0 0 1 391,630 H309 A4,4 0 0 1 305,626 V606 A4,4 0 0 1 309,602 Z" />
+  <text x="350" y="622" font-family="Consolas, monospace" font-size="12" fill="#0A0A0A" text-anchor="middle">Vue 3</text>
+  <path fill="#FFFFFF" d="M414,602 H536 A4,4 0 0 1 540,606 V626 A4,4 0 0 1 536,630 H414 A4,4 0 0 1 410,626 V606 A4,4 0 0 1 414,602 Z" />
+  <text x="475" y="622" font-family="Consolas, monospace" font-size="12" fill="#0A0A0A" text-anchor="middle">PostgreSQL</text>
+  <path fill="#FFFFFF" d="M559,602 H641 A4,4 0 0 1 645,606 V626 A4,4 0 0 1 641,630 H559 A4,4 0 0 1 555,626 V606 A4,4 0 0 1 559,602 Z" />
+  <text x="600" y="622" font-family="Consolas, monospace" font-size="12" fill="#0A0A0A" text-anchor="middle">Redis</text>
+  <path fill="#FFFFFF" d="M664,602 H796 A4,4 0 0 1 800,606 V626 A4,4 0 0 1 796,630 H664 A4,4 0 0 1 660,626 V606 A4,4 0 0 1 664,602 Z" />
+  <text x="730" y="622" font-family="Consolas, monospace" font-size="12" fill="#0A0A0A" text-anchor="middle">AnythingLLM</text>
+  <path fill="#FFFFFF" d="M819,602 H911 A4,4 0 0 1 915,606 V626 A4,4 0 0 1 911,630 H819 A4,4 0 0 1 815,626 V606 A4,4 0 0 1 819,602 Z" />
+  <text x="865" y="622" font-family="Consolas, monospace" font-size="12" fill="#0A0A0A" text-anchor="middle">Docker</text>
+  <path fill="#FFFFFF" d="M934,602 H1026 A4,4 0 0 1 1030,606 V626 A4,4 0 0 1 1026,630 H934 A4,4 0 0 1 930,626 V606 A4,4 0 0 1 934,602 Z" />
+  <text x="980" y="622" font-family="Consolas, monospace" font-size="12" fill="#0A0A0A" text-anchor="middle">Nginx</text>
+  <text x="60" y="695" font-family="Consolas, monospace" font-size="11" fill="#737373">LLM Agent Framework · Graduation Defense 2026</text>
+</svg>

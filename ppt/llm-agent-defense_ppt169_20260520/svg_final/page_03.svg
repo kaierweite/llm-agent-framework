@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+  <rect width="1280" height="720" fill="#FAFAF8" />
+  
+  <rect x="0" y="0" width="1280" height="4" fill="#002FA7" />
+  
+  <text x="60" y="50" font-family="Consolas, monospace" font-size="12" fill="#737373" letter-spacing="3">03 / 10 · PAIN POINTS</text>
+  <line x1="60" y1="68" x2="1220" y2="68" stroke="#E0E0E0" stroke-width="1" />
+  <text x="60" y="110" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="700" fill="#0A0A0A">核心痛点与解决方案</text>
+  <text x="60" y="140" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#737373">企业落地 LLM 面临的三大瓶颈</text>
+  
+  
+  <path fill="#F0F0EE" d="M66,170 H614 A6,6 0 0 1 620,176 V384 A6,6 0 0 1 614,390 H66 A6,6 0 0 1 60,384 V176 A6,6 0 0 1 66,170 Z" />
+  <path fill="#5B7BFF" d="M62,170 H618 A2,2 0 0 1 620,172 V172 A2,2 0 0 1 618,174 H62 A2,2 0 0 1 60,172 V172 A2,2 0 0 1 62,170 Z" />
+  <text x="90" y="210" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">痛点 01</text>
+  <text x="90" y="250" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" font-weight="600" fill="#0A0A0A">知识时效性受限</text>
+  <text x="90" y="285" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#525252">模型训练数据有截止日期</text>
+  <text x="90" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#737373">无法获取实时信息，回答"我的知识截止到 2023 年"</text>
+  <line x1="90" y1="340" x2="590" y2="340" stroke="#E0E0E0" stroke-width="1" />
+  <text x="90" y="370" font-family="Consolas, monospace" font-size="11" fill="#737373">影响：外部数据依赖场景完全不可用</text>
+  
+  <path fill="#F0F0EE" d="M666,170 H1214 A6,6 0 0 1 1220,176 V384 A6,6 0 0 1 1214,390 H666 A6,6 0 0 1 660,384 V176 A6,6 0 0 1 666,170 Z" />
+  <path fill="#5B7BFF" d="M662,170 H1218 A2,2 0 0 1 1220,172 V172 A2,2 0 0 1 1218,174 H662 A2,2 0 0 1 660,172 V172 A2,2 0 0 1 662,170 Z" />
+  <text x="690" y="210" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">痛点 02</text>
+  <text x="690" y="250" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" font-weight="600" fill="#0A0A0A">无外部行动能力</text>
+  <text x="690" y="285" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#525252">模型仅能生成文本，无法执行操作</text>
+  <text x="690" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#737373">不能操作文件、查询数据库、调用 API 或发送网络请求</text>
+  <line x1="690" y1="340" x2="1190" y2="340" stroke="#E0E0E0" stroke-width="1" />
+  <text x="690" y="370" font-family="Consolas, monospace" font-size="11" fill="#737373">影响：企业业务集成完全无法实现</text>
+  
+  <path fill="#F0F0EE" d="M66,420 H614 A6,6 0 0 1 620,426 V634 A6,6 0 0 1 614,640 H66 A6,6 0 0 1 60,634 V426 A6,6 0 0 1 66,420 Z" />
+  <path fill="#5B7BFF" d="M62,420 H618 A2,2 0 0 1 620,422 V422 A2,2 0 0 1 618,424 H62 A2,2 0 0 1 60,422 V422 A2,2 0 0 1 62,420 Z" />
+  <text x="90" y="460" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">痛点 03</text>
+  <text x="90" y="500" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" font-weight="600" fill="#0A0A0A">上下文窗口瓶颈</text>
+  <text x="90" y="535" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#525252">长对话超出模型 token 限制</text>
+  <text x="90" y="560" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#737373">历史信息被截断，关键上下文丢失，无法支持复杂长任务</text>
+  <line x1="90" y1="590" x2="590" y2="590" stroke="#E0E0E0" stroke-width="1" />
+  <text x="90" y="620" font-family="Consolas, monospace" font-size="11" fill="#737373">影响：多轮对话和复杂推理场景受限</text>
+  
+  <path fill="#002FA7" d="M666,420 H1214 A6,6 0 0 1 1220,426 V634 A6,6 0 0 1 1214,640 H666 A6,6 0 0 1 660,634 V426 A6,6 0 0 1 666,420 Z" />
+  <text x="690" y="460" font-family="Consolas, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.6" letter-spacing="2">解决方案</text>
+  <text x="690" y="500" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">LLM Agent Framework</text>
+  <text x="690" y="535" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.85">全栈智能代理框架</text>
+  <text x="690" y="565" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.7">15+ 内置工具 · ReAct 循环</text>
+  <text x="690" y="590" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.7">RAG 知识库 · 动态技能系统</text>
+  <line x1="690" y1="615" x2="1190" y2="615" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1" />
+  <text x="690" y="635" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5B7BFF">目标：让 LLM 真正能干活 →</text>
+  
+  <text x="60" y="695" font-family="Consolas, monospace" font-size="11" fill="#737373">LLM Agent Framework · Graduation Defense 2026</text>
+</svg>

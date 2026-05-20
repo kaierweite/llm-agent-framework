@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="leftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#002FA7"/>
+      <stop offset="100%" stop-color="#001A5E"/>
+    </linearGradient>
+  </defs>
+  <!-- Left half - blue -->
+  <rect x="0" y="0" width="640" height="720" fill="url(#leftGrad)"/>
+  <!-- Grid on left -->
+  
+  
+  <!-- Right half - white -->
+  <rect x="640" y="0" width="640" height="720" fill="#FAFAF8"/>
+  <!-- Left content -->
+  <text x="60" y="50" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" fill-opacity="0.6" letter-spacing="3">02 / 10 · BACKGROUND</text>
+  <line x1="60" y1="68" x2="580" y2="68" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1"/>
+  <text x="80" y="200" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" fill-opacity="0.5" letter-spacing="4">WHY THIS MATTERS</text>
+  <text x="80" y="320" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF" letter-spacing="2">从"会聊天"</text>
+  <text x="80" y="390" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="700" fill="#5B7BFF" letter-spacing="2">到"能干活"</text>
+  <rect x="80" y="430" width="60" height="3" rx="1.5" fill="#5B7BFF"/>
+  <text x="80" y="610" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.5">LLM Agent Framework</text>
+  <!-- Right content -->
+  <text x="700" y="50" font-family="Consolas, monospace" font-size="12" fill="#737373" letter-spacing="3">项目背景与动机</text>
+  <line x1="700" y1="68" x2="1220" y2="68" stroke="#E0E0E0" stroke-width="1"/>
+  <!-- Quote block -->
+  <rect x="700" y="160" width="560" height="120" rx="4" fill="#F0F0EE"/>
+  <text x="730" y="195" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#525252">"今天天气怎么样？"</text>
+  <text x="730" y="225" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#737373">—— "抱歉，我的知识截止到 2023 年。"</text>
+  <text x="730" y="255" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#737373">—— "对不起，我只能生成文字。"</text>
+  <!-- Problem statement -->
+  <text x="700" y="340" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="600" fill="#0A0A0A">大语言模型很聪明，但也很"无能"</text>
+  <text x="700" y="375" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#525252">被困在对话框里——看得见世界，碰不到世界。</text>
+  <!-- Core proposition -->
+  <rect x="700" y="430" width="560" height="80" rx="4" fill="#002FA7"/>
+  <text x="730" y="465" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">核心命题：如何让 LLM 既能思考，也能行动？</text>
+  <text x="730" y="492" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.75">→ 构建 LLM Agent Framework — 让大模型真正能干活</text>
+  <!-- Footer -->
+  <line x1="700" y1="640" x2="1220" y2="640" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="700" y="672" font-family="Consolas, monospace" font-size="12" fill="#737373">LLM Agent Framework · Graduation Defense 2026</text>
+</svg>

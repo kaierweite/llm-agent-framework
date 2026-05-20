@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#002FA7"/>
+      <stop offset="100%" stop-color="#001A5E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5B7BFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#002FA7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+  <rect width="1280" height="720" fill="url(#glow)"/>
+  
+  
+  <!-- Top meta -->
+  <text x="60" y="50" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" fill-opacity="0.50" letter-spacing="3">08 / 08 · CLOSING</text>
+  <line x1="60" y1="68" x2="1220" y2="68" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
+  <!-- Main title -->
+  <text x="640" y="280" font-family="Consolas, monospace" font-size="14" fill="#FFFFFF" fill-opacity="0.45" text-anchor="middle" letter-spacing="5">THANK YOU</text>
+  <text x="640" y="370" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">感谢聆听</text>
+  <rect x="540" y="410" width="200" height="3" rx="1.5" fill="#5B7BFF"/>
+  <!-- Subtitle -->
+  <text x="640" y="470" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" fill="#FFFFFF" fill-opacity="0.75" text-anchor="middle">期待各位老师的指导与建议</text>
+  <!-- Repo link -->
+  <rect x="390" y="520" width="500" height="50" rx="25" fill="#FFFFFF" fill-opacity="0.08"/>
+  <text x="640" y="552" font-family="Consolas, monospace" font-size="14" fill="#FFFFFF" fill-opacity="0.6" text-anchor="middle">github.com/kaierweite/llm-agent-framework</text>
+  <!-- Bottom -->
+  <line x1="60" y1="640" x2="1220" y2="640" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
+  <text x="60" y="672" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.40">LLM Agent Framework · 毕业设计答辩 · 2026</text>
+  <text x="1220" y="672" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.40" text-anchor="end">完</text>
+</svg>

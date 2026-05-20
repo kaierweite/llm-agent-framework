@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#FAFAF8" />
+  <rect x="0" y="0" width="1280" height="4" fill="#002FA7" />
+  
+  <text x="60" y="50" font-family="Consolas, monospace" font-size="12" fill="#737373" letter-spacing="3">04 / 10 · TOOL CALLING</text>
+  <line x1="60" y1="68" x2="1220" y2="68" stroke="#E0E0E0" stroke-width="1" />
+  <text x="60" y="110" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="700" fill="#0A0A0A">工具调用引擎</text>
+  <text x="60" y="140" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#737373">ReAct 范式：推理 → 行动 → 再推理</text>
+  
+  <path fill="#F0F0EE" d="M66,170 H754 A6,6 0 0 1 760,176 V664 A6,6 0 0 1 754,670 H66 A6,6 0 0 1 60,664 V176 A6,6 0 0 1 66,170 Z" />
+  
+  <text x="100" y="210" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">ReAct 循环流程</text>
+  
+  <path fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" d="M104,230 H236 A4,4 0 0 1 240,234 V276 A4,4 0 0 1 236,280 H104 A4,4 0 0 1 100,276 V234 A4,4 0 0 1 104,230 Z" />
+  <text x="170" y="260" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#0A0A0A" text-anchor="middle">LLM 推理</text>
+  <text x="250" y="255" font-family="Consolas, monospace" font-size="18" fill="#002FA7">→</text>
+  <path fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" d="M274,230 H406 A4,4 0 0 1 410,234 V276 A4,4 0 0 1 406,280 H274 A4,4 0 0 1 270,276 V234 A4,4 0 0 1 274,230 Z" />
+  <text x="340" y="260" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#0A0A0A" text-anchor="middle">解析调用</text>
+  <text x="420" y="255" font-family="Consolas, monospace" font-size="18" fill="#002FA7">→</text>
+  <path fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1" d="M444,230 H576 A4,4 0 0 1 580,234 V276 A4,4 0 0 1 576,280 H444 A4,4 0 0 1 440,276 V234 A4,4 0 0 1 444,230 Z" />
+  <text x="510" y="260" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#0A0A0A" text-anchor="middle">执行工具</text>
+  <text x="590" y="255" font-family="Consolas, monospace" font-size="18" fill="#002FA7">→</text>
+  <path fill="#002FA7" d="M614,230 H736 A4,4 0 0 1 740,234 V276 A4,4 0 0 1 736,280 H614 A4,4 0 0 1 610,276 V234 A4,4 0 0 1 614,230 Z" />
+  <text x="675" y="260" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">结果注入</text>
+  
+  <text x="100" y="305" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#525252">↑ 最多 5 轮链式调用 · 总超时 120 秒</text>
+  
+  <line x1="100" y1="340" x2="730" y2="340" stroke="#E0E0E0" stroke-width="1" />
+  <text x="100" y="370" font-family="Consolas, monospace" font-size="11" fill="#737373" letter-spacing="2">内置工具 (15+)</text>
+  <path fill="#FFFFFF" d="M104,390 H226 A4,4 0 0 1 230,394 V422 A4,4 0 0 1 226,426 H104 A4,4 0 0 1 100,422 V394 A4,4 0 0 1 104,390 Z" />
+  <text x="165" y="414" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#0A0A0A" text-anchor="middle">文件操作</text>
+  <path fill="#FFFFFF" d="M249,390 H371 A4,4 0 0 1 375,394 V422 A4,4 0 0 1 371,426 H249 A4,4 0 0 1 245,422 V394 A4,4 0 0 1 249,390 Z" />
+  <text x="310" y="414" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#0A0A0A" text-anchor="middle">网络请求</text>
+  <path fill="#FFFFFF" d="M394,390 H516 A4,4 0 0 1 520,394 V422 A4,4 0 0 1 516,426 H394 A4,4 0 0 1 390,422 V394 A4,4 0 0 1 394,390 Z" />
+  <text x="455" y="414" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#0A0A0A" text-anchor="middle">天气查询</text>
+  <path fill="#FFFFFF" d="M539,390 H661 A4,4 0 0 1 665,394 V422 A4,4 0 0 1 661,426 H539 A4,4 0 0 1 535,422 V394 A4,4 0 0 1 539,390 Z" />
+  <text x="600" y="414" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#0A0A0A" text-anchor="middle">知识库检索</text>
+  <path fill="#FFFFFF" d="M104,440 H226 A4,4 0 0 1 230,444 V472 A4,4 0 0 1 226,476 H104 A4,4 0 0 1 100,472 V444 A4,4 0 0 1 104,440 Z" />
+  <text x="165" y="464" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#0A0A0A" text-anchor="middle">历史搜索</text>
+  <path fill="#FFFFFF" d="M249,440 H371 A4,4 0 0 1 375,444 V472 A4,4 0 0 1 371,476 H249 A4,4 0 0 1 245,472 V444 A4,4 0 0 1 249,440 Z" />
+  <text x="310" y="464" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#0A0A0A" text-anchor="middle">技能加载</text>
+  <path fill="#FFFFFF" d="M394,440 H516 A4,4 0 0 1 520,444 V472 A4,4 0 0 1 516,476 H394 A4,4 0 0 1 390,472 V444 A4,4 0 0 1 394,440 Z" />
+  <text x="455" y="464" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#0A0A0A" text-anchor="middle">主题切换</text>
+  
+  <line x1="100" y1="510" x2="730" y2="510" stroke="#E0E0E0" stroke-width="1" />
+  <text x="100" y="545" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#0A0A0A" font-weight="600">LLM 自主决定用哪个工具、传什么参数</text>
+  <text x="100" y="575" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#525252">并行执行：ThreadPoolExecutor · 统一超时 30 秒</text>
+  <text x="100" y="600" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#525252">安全沙箱：路径白名单审计 · 支持自定义扩展</text>
+  
+  <path fill="#002FA7" d="M806,170 H1214 A6,6 0 0 1 1220,176 V664 A6,6 0 0 1 1214,670 H806 A6,6 0 0 1 800,664 V176 A6,6 0 0 1 806,170 Z" />
+  
+  <text x="1010" y="280" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" fill-opacity="0.6" text-anchor="middle" letter-spacing="3">工具调用准确率</text>
+  <text x="1010" y="380" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="96" font-weight="700" fill="#FFFFFF" text-anchor="middle">93.3%</text>
+  <path fill="#5B7BFF" d="M911.50,410 H1108.50 A1.50,1.50 0 0 1 1110,411.50 V411.50 A1.50,1.50 0 0 1 1108.50,413 H911.50 A1.50,1.50 0 0 1 910,411.50 V411.50 A1.50,1.50 0 0 1 911.50,410 Z" />
+  <text x="1010" y="450" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#FFFFFF" fill-opacity="0.85" text-anchor="middle">30 道测试 · 28 道正确</text>
+  
+  <line x1="840" y1="500" x2="1180" y2="500" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1" />
+  <text x="1010" y="540" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.6" text-anchor="middle">最多 5 轮链式调用</text>
+  <text x="1010" y="570" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.6" text-anchor="middle">文件操作类工具正确率 100%</text>
+  <text x="1010" y="600" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.6" text-anchor="middle">平均耗时 698ms</text>
+  
+  <text x="60" y="695" font-family="Consolas, monospace" font-size="11" fill="#737373">LLM Agent Framework · Graduation Defense 2026</text>
+</svg>

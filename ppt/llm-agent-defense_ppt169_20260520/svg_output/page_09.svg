@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="leftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#002FA7"/>
+      <stop offset="100%" stop-color="#001A5E"/>
+    </linearGradient>
+  </defs>
+  <!-- Left half - blue manifesto -->
+  <rect x="0" y="0" width="600" height="720" fill="url(#leftGrad)"/>
+  
+  
+  <!-- Right half - white -->
+  <rect x="600" y="0" width="680" height="720" fill="#FAFAF8"/>
+  <!-- Left content -->
+  <text x="50" y="50" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" fill-opacity="0.6" letter-spacing="3">09 / 10 · ACHIEVEMENTS</text>
+  <line x1="50" y1="68" x2="550" y2="68" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1"/>
+  <text x="70" y="200" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" fill-opacity="0.5" letter-spacing="4">RESULTS</text>
+  <text x="70" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="42" font-weight="700" fill="#FFFFFF">成果回顾</text>
+  <text x="70" y="370" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="42" font-weight="700" fill="#5B7BFF">与展望</text>
+  <rect x="70" y="410" width="60" height="3" rx="1.5" fill="#5B7BFF"/>
+  <text x="70" y="460" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#FFFFFF" fill-opacity="0.75">从只会调 API 到理解 Agent 的完整设计</text>
+  <text x="70" y="490" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.55">工具注册 · 记忆管理 · 流式输出 · 熔断限流</text>
+  <!-- Personal reflection -->
+  <line x1="70" y1="530" x2="530" y2="530" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="1"/>
+  <text x="70" y="570" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.5">不足：底层模型依赖较强</text>
+  <text x="70" y="600" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.5">未来：引入 MCP 协议 · 多代理协作</text>
+  <text x="50" y="680" font-family="Consolas, monospace" font-size="12" fill="#FFFFFF" fill-opacity="0.4">LLM Agent Framework · 2026.05</text>
+  <!-- Right content: KPIs -->
+  <text x="650" y="50" font-family="Consolas, monospace" font-size="12" fill="#737373" letter-spacing="3">核心数据 · KPI</text>
+  <line x1="650" y1="68" x2="1230" y2="68" stroke="#E0E0E0" stroke-width="1"/>
+  <!-- KPI 1 -->
+  <rect x="650" y="100" width="580" height="140" rx="6" fill="#F0F0EE"/>
+  <text x="690" y="140" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">01 · 工具调用</text>
+  <text x="690" y="180" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="56" font-weight="700" fill="#0A0A0A">93.3%</text>
+  <text x="870" y="165" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#0A0A0A">准确率</text>
+  <text x="870" y="195" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#737373">30 道测试题 · 28 道正确</text>
+  <!-- KPI 2 -->
+  <rect x="650" y="260" width="580" height="140" rx="6" fill="#F0F0EE"/>
+  <text x="690" y="300" font-family="Consolas, monospace" font-size="11" fill="#002FA7" letter-spacing="2">02 · 上下文压缩</text>
+  <text x="690" y="340" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="56" font-weight="700" fill="#0A0A0A">5.3:1</text>
+  <text x="870" y="325" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#0A0A0A">压缩比</text>
+  <text x="870" y="355" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#737373">45,200 → 8,500 Token · 保留率 92.5%</text>
+  <!-- KPI 3 (accent) -->
+  <rect x="650" y="420" width="580" height="140" rx="6" fill="#002FA7"/>
+  <text x="690" y="460" font-family="Consolas, monospace" font-size="11" fill="#FFFFFF" fill-opacity="0.6" letter-spacing="2">03 · 并发性能</text>
+  <text x="690" y="500" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">1.2%</text>
+  <text x="870" y="485" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#5B7BFF">100 并发错误率</text>
+  <text x="870" y="515" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#FFFFFF" fill-opacity="0.7">P95 响应 15.6s · 系统可用率 98.8%</text>
+  <!-- Closing line -->
+  <line x1="650" y1="600" x2="1230" y2="600" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="650" y="640" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="600" fill="#002FA7">→ 结论：Agent 框架让 LLM 从"会说"到"会做"</text>
+  <text x="650" y="680" font-family="Consolas, monospace" font-size="11" fill="#737373">LLM Agent Framework · Graduation Defense 2026</text>
+</svg>
